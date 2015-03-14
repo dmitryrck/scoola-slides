@@ -1,7 +1,7 @@
 OUTPUT = scoola
 
 all:
-	pdflatex index.tex
+	xelatex index.tex
 	make clean
 
 clean:
